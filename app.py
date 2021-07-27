@@ -4,7 +4,7 @@ def find_even_index(arr):
     index = 0
     if sum(arr) == 0:
         index = 0
-        return index,  "Should pick the first index if more cases are valid"
+        return index
     if first == sum(arr[1:]):
         index = 0
     if last == sum(arr[:-1]):
